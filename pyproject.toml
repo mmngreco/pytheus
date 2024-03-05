@@ -8,9 +8,9 @@ dynamic = ["version"]
 authors = [{name="Max Greco", email="mmngreco@gmail.com"}]
 readme = "README.md"
 requires-python = ">=3.6"
-dependencies = ["rich", "typer", "pandas"]
+dependencies = ["rich", "typer", "pandas", "requests"]
 license = {file = "LICENSE"}
-description = "pytheus is a CLI tool for tracking time."
+description = "pytheus is a hacky CLI tool for get data from prometheus."
 
 
 [project.scripts]

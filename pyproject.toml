@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=60", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytheus"
+dynamic = ["version"]
+authors = [{name="Max Greco", email="mmngreco@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = ["rich", "typer", "pandas"]
+license = {file = "LICENSE"}
+description = "pytheus is a CLI tool for tracking time."
+
+
+[project.scripts]
+pytheus = "pytheus:app"
+
+
+[tool.setuptools_scm]
